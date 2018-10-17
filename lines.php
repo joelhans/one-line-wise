@@ -85,6 +85,11 @@ $lines = array(
     'tag'         => 'files',
     'description' => 'Delete all the files in a folder that <strong>don\'t</strong> end in one of the extensions supplied.'
   ),
+  array(
+    'line'        => 'mkdir <span class="hl">FOLDER</span> && cd $_',
+    'tag'         => 'files',
+    'description' => 'Create the folder <code>FOLDER</code> and enter it.'
+  ),
 );
 
 // https://www.commandlinefu.com/commands/browse/sort-by-votes
