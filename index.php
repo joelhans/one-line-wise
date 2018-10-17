@@ -133,7 +133,7 @@
 
           <h3 class="text-lg font-semibold mb-4">Send us a one-liner</h3>
           <p class="font-sans text-base leading-normal mb-2">We're open to new one-liners and fixes/suggestions to existing ones! We want this to be a fun, evolving, and useful resource for developers and sysadmins of all skill levels.</p>
-          <p class="font-sans text-base leading-normal mb-2">For now, send an email to <a class="px-1 py-px" href="mailto:joel@ssdnodes.com">joel@ssdnodes.com</a>.</p>
+          <p class="font-sans text-base leading-normal mb-2">You can contribute in two ways. <strong>First, you can send an email to <a class="px-1 py-px" href="mailto:joel@ssdnodes.com">joel@ssdnodes.com</a></strong>.</p>
           <p class="font-sans text-base leading-normal mb-2">Be sure to include the following:</p>
           <ul class="leading-normal mb-6">
             <li class="text-sm">The one-liner</li>
@@ -141,9 +141,8 @@
             <li class="text-sm">The most appropriate existing tag (or recommend a new one)</li>
             <li class="text-sm">Whether you'd like to be credited, and how: website, Twitter, email, etc</li>
           </ul>
-          <h3 class="text-lg font-semibold mb-4">Something doesn't look right?</h3>
-          <p class="font-sans text-base leading-normal mb-2">Feel free to send us fixes! Again, send an email to <a class="px-1 py-px" href="mailto:joel@ssdnodes.com">joel@ssdnodes.com</a>.</p>
-
+          <p class="font-sans text-base leading-normal mb-2">You can also <strong>contribute <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise" target="_blank">via GitHub</a></strong>.</p>
+          <p class="font-sans text-base leading-normal mb-2">You can create a <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise/issues">new issue</a> or a <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise/pulls">pull request</a> for fixes, improvements, and additional one-liners.<p>
 
         </div>
       </div>
@@ -152,8 +151,9 @@
 
           <h3 class="text-lg font-semibold mb-4">About this tool</h3>
           <p class="font-sans text-base leading-normal mb-2">This was built by the people behind <a class="px-1 py-px" href="https://www.ssdnodes.com" target="_blank">SSD Nodes</a> as a way to share our server wisdom and test out the <a class="px-1 py-px" href="https://tailwindcss.com" target="_blank">Tailwind CSS</a> framework and its "utility-first" methodology and explore whether it's a viable development process for us.</p>
+          <p class="font-sans text-base leading-normal mb-2">View <em>One-line wise</em> on <a href="https://github.com/joelhans/one-line-wise" target="_blank">GitHub</a>.</p>
           <p class="font-sans text-base leading-normal mb-4">We hope you enjoy!</p>
-          <p class="text-sm font-semibold text-teal uppercase">Last updated: October 10, 2018</p>
+          <p class="text-sm font-semibold text-teal uppercase">Last updated: October 17, 2018</p>
 
         </div>
       </div>
