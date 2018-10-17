@@ -68,7 +68,7 @@ $lines = array(
   array(
     'line'        => 'curl ifconfig.me',
     'tag'         => 'network',
-    'description' => 'Get your current external IP.'
+    'description' => 'Get your current external IP. You can also try <code>curl  icanhazip.com</code> as an alternative if <code>ifconfig.me</code> doesn\'t work.'
   ),
   array(
     'line'        => 'wget --random-wait -r -p -e robots=off -U mozilla <span class="hl">WEBSITE.COM</span>',
