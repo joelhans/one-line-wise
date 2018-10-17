@@ -32,6 +32,7 @@
   
   <link href='//fonts.googleapis.com/css?family=Niramit|Source+Code+Pro:400,600,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="dist/css/main.css?<?php echo filemtime('dist/css/main.css'); ?>" />
+  <link rel="stylesheet" href="dist/css/tomorrow-night.css">
 
   <!-- Google Analytics -->
   <script>
@@ -151,9 +152,13 @@
 
           <h3 class="text-lg font-semibold mb-4">About this tool</h3>
           <p class="font-sans text-base leading-normal mb-2">This was built by the people behind <a class="px-1 py-px" href="https://www.ssdnodes.com" target="_blank">SSD Nodes</a> as a way to share our server wisdom and test out the <a class="px-1 py-px" href="https://tailwindcss.com" target="_blank">Tailwind CSS</a> framework and its "utility-first" methodology and explore whether it's a viable development process for us.</p>
-          <p class="font-sans text-base leading-normal mb-2">View <em>One-line wise</em> on <a href="https://github.com/joelhans/one-line-wise" target="_blank">GitHub</a>.</p>
+          <p class="font-sans text-base leading-normal mb-2">View <em>One-line wise</em> on <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise" target="_blank">GitHub</a>.</p>
           <p class="font-sans text-base leading-normal mb-4">We hope you enjoy!</p>
-          <p class="text-sm font-semibold text-teal uppercase">Last updated: October 17, 2018</p>
+          <p class="text-sm font-semibold text-teal uppercase mb-4">Last updated: October 17, 2018</p>
+          <p>
+            <a class="github-button" href="https://github.com/joelhans/one-line-wise" data-show-count="true" aria-label="Star joelhans/one-line-wise on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/joelhans/one-line-wise/issues" data-show-count="true" aria-label="Issue joelhans/one-line-wise on GitHub">Issue</a>
+          </p>
 
         </div>
       </div>
@@ -163,7 +168,7 @@
   </div>
 
   <script src="dist/js/main.js?<?php echo filemtime('dist/js/main.js'); ?>"></script>
-  <link rel="stylesheet" href="dist/css/tomorrow-night.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="dist/js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
