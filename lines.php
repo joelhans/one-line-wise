@@ -98,6 +98,9 @@ $tags = array(
   'bash' => array(
     'color' => 'orange'
   ),
+  'system' => array(
+    'color' => 'purple'
+  ),
 );
 
 // http://www.samcodes.co.uk/project/markov-namegen/
