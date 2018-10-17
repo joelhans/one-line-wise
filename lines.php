@@ -16,7 +16,7 @@ $lines = array(
     'description' => 'Reverse the letters of any <code>STRING</code>. <code>STRING</code> becomes <code>GNIRTS</code>.'
   ),
   array(
-    'line'        => 'find <span class="hl">DIR</span>/* -exec grep -il "<span class="hl">SEARCH</span>" \'{}\' \; -print',
+    'line'        => 'grep -ril "SEARCH" DIR',
     'tag'         => 'grep',
     'description' => 'Open all the files under the directory <code>DIR</code> and look for instances of the word <code>STRING</code>.'
   ),
@@ -31,7 +31,7 @@ $lines = array(
     'description' => 'Play Tron with others!'
   ),
   array(
-    'line'        => 'for i in `ls -1`; do mv $i "${i,,}" ; done',
+    'line'        => 'for i in *; do mv -if $i `echo $i | tr \'A-Z\' \'a-z\'`; done',
     'tag'         => 'files',
     'description' => 'Rename all files in current directory to lowercase.'
   ),
