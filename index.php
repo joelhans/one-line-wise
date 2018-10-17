@@ -92,8 +92,9 @@
 
     <section class="cards section mb-16">
 
-      <?php 
-        foreach ($lines as $key => $val) : 
+      <?php
+        shuffle($lines);
+        foreach ($lines as $key => $val) :
         $tagColor = $val['tag'];
       ?>
 
