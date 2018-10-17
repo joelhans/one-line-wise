@@ -112,7 +112,7 @@
 
     </section>
 
-    <section class="section mb-8">
+    <section class="section mb-16">
 
       <div class="w-full md:w-1/2 lg:w-1/3 mb-8 px-4">
         <div class="content border border-pink-light rounded-sm px-4 py-6 shadow">
@@ -163,6 +163,30 @@
           </p>
 
         </div>
+      </div>
+
+    </section>
+
+    <section class="section mb-16">
+
+      <div class="w-full lg:w-2/3 mb-8 px-4">
+
+        <h2 class="text-xl font-normal mb-6">Sign up for our weekly newsletter to hear about <em>One-line wise</em> developments and other server wisdom:</h2>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="https://ssdnodes.us18.list-manage.com/subscribe/post?u=7e134cc07e36ff0bacefca130&amp;id=d1494787e6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+          
+            <input class="inline-block p-4 border border-teal" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email">
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7e134cc07e36ff0bacefca130_d1494787e6" tabindex="-1" value=""></div>
+            <input class="p-4 border border-pink cursor-pointer" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+          </div>
+        </form>
+        </div>
+        <!--End mc_embed_signup-->
+
       </div>
 
     </section>
