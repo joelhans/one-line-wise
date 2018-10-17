@@ -1,0 +1,46 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-indigo-darkest rounded-sm border border-teal no-underline;
+}
+
+a:hover {
+  @apply bg-pink-light border-pink-light;
+}
+
+.section {
+  @apply flex flex-row flex-wrap items-stretch;
+}
+
+@screen md {
+  .section {
+    @apply -mx-6;
+  }
+}
+
+textarea {
+  left: -1000px;
+}
+
+code {
+  overflow-x: hidden;
+  white-space: normal;
+  @apply text-grey-lightest bg-indigo-darkest rounded-sm py-px px-1;
+}
+
+span.hl {
+  @apply font-black text-red underline;
+}
+
+.clear {
+  right: 33px;
+  bottom: 31px;
+  padding: 0px 5px;
+  outline: 1px solid transparent;
+}
+
+.clear:focus {
+  outline: 1px dotted config('colors.teal');
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "bulma": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^0.6.6"
+  }
+}
