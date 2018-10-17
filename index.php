@@ -121,11 +121,13 @@
           <p class="font-sans text-base leading-normal mb-6">Any time you see code that <code><span class="font-mono hl">looks like this</span></code> (bold red with a red underline), it's a signal that you need to replace that text with something else. We try to specify what that text should be in the one-liner's description.</p>
           <h3 class="text-lg font-semibold mb-4">What's next?</h3>
           <p class="font-sans text-base leading-normal mb-2">We're currently working on additional features&mdash;here are a few:</p>
-          <ul class="leading-normal">
+          <ul class="leading-normal mb-4">
             <li class="text-sm">Many, many more one-liners!</li>
             <li class="text-sm">Permalinks to one-liners</li>
             <li class="text-sm">A primitive voting system (longshot)</li>
           </ul>
+          <h3 class="text-lg font-semibold mb-4">Why build this tool?</h3>
+          <p class="font-sans text-base leading-normal mb-2">What do you know—we wrote a <a class="px-1 py-px" href="https://blog.ssdnodes.com/blog/one-liners-tool-resource/" target="_blank">blog post</a> about this exact topic over on our blog, <a class="px-1 py-px" href="https://blog.ssdnodes.com/blog/" target="_blank"><em>Serverwise</em></a>. Mostly, we’re all about helping people learn and get more from their VPS.</p>
 
         </div>
       </div>
@@ -143,7 +145,7 @@
             <li class="text-sm">Whether you'd like to be credited, and how: website, Twitter, email, etc</li>
           </ul>
           <p class="font-sans text-base leading-normal mb-2">You can also <strong>contribute <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise" target="_blank">via GitHub</a></strong>.</p>
-          <p class="font-sans text-base leading-normal mb-2">You can create a <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise/issues">new issue</a> or a <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise/pulls">pull request</a> for fixes, improvements, and additional one-liners.<p>
+          <p class="font-sans text-base leading-normal mb-2">You can create a <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise/issues" target="_blank">new issue</a> or a <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise/pulls" target="_blank">pull request</a> for fixes, improvements, and additional one-liners.<p>
 
         </div>
       </div>
