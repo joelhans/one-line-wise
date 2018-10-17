@@ -4,7 +4,7 @@ The best terminal one-liners from and for smart admins + devs. Hosted and brough
 
 *One-line wise* is a simple, single-page tool for discovering and using interesting, unique, or downright silly terminal 
 
-See it in action: [http://ssdnodes.com/tools/one-line-wise/](http://ssdnodes.com/tools/one-line-wise/)
+See it in action: [http://www.ssdnodes.com/tools/one-line-wise/](http://www.ssdnodes.com/tools/one-line-wise/)
 
 
 ## Contributing to One-line wise
