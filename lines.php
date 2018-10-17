@@ -6,6 +6,11 @@ $lines = array(
     'description' => 'Where it all began. Re-run the previous command, but as sudo.'
   ),
   array(
+    'line'        => 'echo "!!" > foo.sh',
+    'tag'         => 'utility',
+    'description' => 'Create a script out of your previous command. Useful for saving your favorite one-liners!'
+  ),
+  array(
     'line'        => 'echo "<span class="hl">STRING</span>" | rev',
     'tag'         => 'string',
     'description' => 'Reverse the letters of any <code>STRING</code>. <code>STRING</code> becomes <code>GNIRTS</code>.'
@@ -46,6 +51,11 @@ $lines = array(
     'description' => 'Monitor your real-time CPU usage. Press <code>Ctrl+C</code> to exit.'
   ),
   array(
+    'line'        => 'while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-29));date;tput rc;done &',
+    'tag'         => 'utility',
+    'description' => 'Show the date/time on the top-right corner of the current terminal.'
+  ),
+  array(
     'line'        => 'install -b -m 777 /dev/null <span class="hl">FILE</span>',
     'tag'         => 'files',
     'description' => 'Create a new file <code>FILE</code> with permissions <code>777</code>. The <code>-b</code> argument will make a backup of the file if it already exists.'
@@ -59,6 +69,21 @@ $lines = array(
     'line'        => 'curl ifconfig.me',
     'tag'         => 'network',
     'description' => 'Get your current external IP.'
+  ),
+  array(
+    'line'        => 'wget --random-wait -r -p -e robots=off -U mozilla <span class="hl">WEBSITE.COM</span>',
+    'tag'         => 'network',
+    'description' => 'Download an entire website with <code>wget</code>. This will download all assets, including images, so use with care.'
+  ),
+  array(
+    'line'        => 'history | awk \'{a[$4]++}END{for(i in a){print a[i] " " i}}\' | sort -rn | head',
+    'tag'         => 'utility',
+    'description' => 'Show your 10 most-used terminal commands.'
+  ),
+  array(
+    'line'        => 'rm !(*.foo|*.bar|*.baz)',
+    'tag'         => 'files',
+    'description' => 'Delete all the files in a folder that <strong>don\'t</strong> end in one of the extensions supplied.'
   ),
 );
 
@@ -98,8 +123,11 @@ $tags = array(
   'bash' => array(
     'color' => 'orange'
   ),
-  'system' => array(
+  'utility' => array(
     'color' => 'purple'
+  ),
+  'system'  => array(
+    'color' => 'teal'
   ),
 );
 
