@@ -36,7 +36,7 @@ $lines = array(
     'description' => 'Rename all files in current directory to lowercase.'
   ),
   array(
-    'line'        => 'ls -l | grep \'^-\' | awk \'{print $5,$9}\' | sort -nr | awk \'{print $2}\'',
+    'line'        => 'ls -l | awk \'/^\-/ { print $5,$9 }\' | sort -nr | awk \'{print $2}\'',
     'tag'         => 'listing',
     'description' => 'Display all files in the current directory, sorted by size, from largest to smallest. Use <code>sort -n</code> for smallest to largest.'
   ),
