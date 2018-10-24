@@ -90,6 +90,11 @@ $lines = array(
     'tag'         => 'files',
     'description' => 'Create the folder <code>FOLDER</code> and enter it.'
   ),
+  array(
+    'line'        => 'awk \'/\'\$(date -d "2 hours ago" +%Y:%H:%M)\'/,/\'\$(date -d "1 hour ago" +%Y:%H:%M)\'/ { print \$0 }\' /var/log/httpd/access_log',
+    'tag'         => 'files',
+    'description' => 'Last 60 minutes of Apache logs'
+  ),
 );
 
 // https://www.commandlinefu.com/commands/browse/sort-by-votes
