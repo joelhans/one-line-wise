@@ -91,7 +91,7 @@ $lines = array(
     'description' => 'Create the folder <code>FOLDER</code> and enter it.'
   ),
   array(
-    'line'        => 'awk \'/\'$(date -d "2 hours ago" "+%d\\/%b\\/%Y:%H:%M")\'/,/\'$(date -d "1 hour" "+%d\\/%b\\/%Y:%H:%M")\'/ { print $0 }\' <span class="h1">/var/log/httpd/access_log</span>',
+    'line'        => 'awk \'/\'$(date -d "1 hours ago" "+%d\\/%b\\/%Y:%H:%M")\'/,/\'$(date "+%d\\/%b\\/%Y:%H:%M")\'/ { print $0 }\' <span class="h1">/var/log/httpd/access_log</span>',
     'tag'         => 'files',
     'description' => 'Last 60 minutes of Apache logs'
   ),
