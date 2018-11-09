@@ -95,6 +95,11 @@ $lines = array(
     'tag'         => 'files',
     'description' => 'Last 60 minutes of Apache logs'
   ),
+  array(
+    'line'        => 'curl wwtr.in',
+    'tag'         => 'utility',
+    'description' => 'Check the weather from your terminal'
+  ),
 );
 
 // https://www.commandlinefu.com/commands/browse/sort-by-votes
