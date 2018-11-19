@@ -31,7 +31,7 @@ $lines = array(
     'description' => 'Play Tron with others!'
   ),
   array(
-    'line'        => 'for i in *; do mv -if $i `echo $i | tr \'A-Z\' \'a-z\'`; done',
+    'line'        => 'for i in *; do mv -if $i `echo $i | tr \'[:upper:]\' \'[:lower:]\'`; done',
     'tag'         => 'files',
     'description' => 'Rename all files in current directory to lowercase.'
   ),
