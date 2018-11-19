@@ -44,3 +44,21 @@ span.hl {
 .clear:focus {
   outline: 1px dotted config('colors.teal');
 }
+
+.card.focus {
+  @apply mx-auto;
+}
+
+@screen lg {
+  .card.focus {
+    @apply w-1/2;
+  }
+}
+
+.perma_detail {
+  display: none;
+}
+
+.perma_detail.showing {
+  @apply block;
+}

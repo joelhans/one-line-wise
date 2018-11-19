@@ -90,7 +90,7 @@
 
     </section>
 
-    <section class="cards section mb-16">
+    <section class="cards section mb-32">
 
       <?php
         shuffle($lines);
@@ -98,13 +98,14 @@
         $tagColor = $val['tag'];
       ?>
 
-      <div class="card <?php echo $ids[$key]; ?> w-full md:w-1/2 lg:w-1/3 px-4 mb-8 rounded-sm">
+      <div class="card <?php echo $val['permalink']; ?> w-full md:w-1/2 lg:w-1/3 px-4 mb-8 rounded-sm">
         <div class="border border-teal rounded-sm p-8 shadow">
 
           <textarea class="absolute"><?php $rep = array("<span class=\"hl\">", "</span>"); echo str_replace($rep, "", $val['line']); ?></textarea>
           <pre class="relative mb-6"><code class="font-semibold rounded-sm p-8 hljs bash"><?php echo $val['line']; ?></code><span class="copy text-xs text-white absolute pin-b pin-r m-1 cursor-pointer hover:text-teal">Copy</span></pre>
           <p class="font-sans text-base font-normal leading-normal mb-6"><?php echo $val['description']; ?></p>
           <span class="tag inline-block text-sm text-<?php echo $tags[$tagColor]['color']; ?> border border-indigo-darkest rounded-sm p-2 cursor-pointer hover:bg-grey-light"><?php echo $val['tag']; ?></span>
+          <p class="inline-block text-xs ml-2">Permalink: <span class="perma underline cursor-pointer hover:text-pink">#<?php echo $val['permalink']; ?></span></p>
 
         </div>
       </div>
@@ -113,7 +114,17 @@
 
     </section>
 
-    <section class="section mb-16">
+    <section class="perma_detail section -mt-32 mb-32">
+  
+      <div class="w-full md:w-1/2 mx-auto px-4">
+
+        <p>This is the permalink to this one-liner. You can bookmark this link or copy it to share.</p>
+
+      </div>
+
+    </section>
+
+    <section class="section mb-16 pt-32 border-t-2 border-black">
 
       <div class="w-full md:w-1/2 lg:w-1/3 mb-8 px-4">
         <div class="content border border-pink-light rounded-sm px-4 py-6 shadow">

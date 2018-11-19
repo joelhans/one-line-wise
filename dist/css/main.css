@@ -6306,6 +6306,25 @@ span.hl {
   outline: 1px dotted #4dc0b5;
 }
 
+.card.focus {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) {
+  .card.focus {
+    width: 50%;
+  }
+}
+
+.perma_detail {
+  display: none;
+}
+
+.perma_detail.showing {
+  display: block;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
