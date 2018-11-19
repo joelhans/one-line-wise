@@ -96,6 +96,11 @@ $lines = array(
     'description' => 'Last 60 minutes of Apache logs'
   ),
   array(
+    'line'        => 'tail -f /absolute/path/to/my/log1.log /absolute/path/to/my/log2.log',
+    'tag'         => 'utility',
+    'description' => 'Monitor the last lines of the specified log (or other) files'
+  ),
+  array(
     'line'        => 'curl wttr.in',
     'tag'         => 'utility',
     'description' => 'Check the weather from your terminal'
