@@ -99,7 +99,7 @@
       ?>
 
       <div class="card <?php echo $ids[$key]; ?> w-full md:w-1/2 lg:w-1/3 px-4 mb-8 rounded-sm">
-        <div class="border border-teal rounded-sm p-4 shadow">
+        <div class="border border-teal rounded-sm p-8 shadow">
 
           <textarea class="absolute"><?php $rep = array("<span class=\"hl\">", "</span>"); echo str_replace($rep, "", $val['line']); ?></textarea>
           <pre class="relative mb-6"><code class="font-semibold rounded-sm p-8 hljs bash"><?php echo $val['line']; ?></code><span class="copy text-xs text-white absolute pin-b pin-r m-1 cursor-pointer hover:text-teal">Copy</span></pre>
@@ -157,7 +157,7 @@
           <p class="font-sans text-base leading-normal mb-2">This was built by the people behind <a class="px-1 py-px" href="https://www.ssdnodes.com" target="_blank">SSD Nodes</a> as a way to share our server wisdom and test out the <a class="px-1 py-px" href="https://tailwindcss.com" target="_blank">Tailwind CSS</a> framework and its "utility-first" methodology and explore whether it's a viable development process for us.</p>
           <p class="font-sans text-base leading-normal mb-2">View <em>One-line wise</em> on <a class="px-1 py-px" href="https://github.com/joelhans/one-line-wise" target="_blank">GitHub</a>.</p>
           <p class="font-sans text-base leading-normal mb-4">We hope you enjoy!</p>
-          <p class="text-sm font-semibold text-teal uppercase mb-4">Last updated: October 17, 2018</p>
+          <p class="text-sm font-semibold text-teal uppercase mb-4">Last updated: November 19, 2018</p>
           <p>
             <a class="github-button" href="https://github.com/joelhans/one-line-wise" data-show-count="true" aria-label="Star joelhans/one-line-wise on GitHub">Star</a>
             <a class="github-button" href="https://github.com/joelhans/one-line-wise/issues" data-show-count="true" aria-label="Issue joelhans/one-line-wise on GitHub">Issue</a>

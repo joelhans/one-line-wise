@@ -105,12 +105,12 @@ $lines = array(
     'tag'         => 'utility',
     'description' => 'Check the weather from your terminal'
   ),
+  array(
+    'line'        => 'echo $PATH | tr \':\' \'\n\'',
+    'tag'         => 'utility',
+    'description' => 'Display your $PATH in a human-readable format'
+  )
 );
-
-// https://www.commandlinefu.com/commands/browse/sort-by-votes
-// https://arturoherrero.com/command-line-one-liners/
-// https://www.datagenx.net/2015/09/linux-one-liners-1.html
-// https://pastebin.com/sDinHfK8
 
 $tags = array(
   'files' => array(
@@ -171,5 +171,13 @@ $ids = array (
   'partricken',
   'firebat',
   'hermonkey',
+  'blackadee',
+  'mandicoot',
+  'deerkat',
+  'giantula',
+  'bobcatfish',
+  'rodentipede',
+  'narwhale',
+  'prayingbee'
 );
 ?>
