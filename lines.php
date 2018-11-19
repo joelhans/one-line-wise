@@ -96,7 +96,7 @@ $lines = array(
     'description' => 'Last 60 minutes of Apache logs'
   ),
   array(
-    'line'        => 'curl wwtr.in',
+    'line'        => 'curl wttr.in',
     'tag'         => 'utility',
     'description' => 'Check the weather from your terminal'
   ),
